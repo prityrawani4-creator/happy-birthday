@@ -1,0 +1,17 @@
+!/usr/bin/env python3
+"""
+happy_birthday_khadoos.py
+A small, silly birthday wish in Python.
+From: prityrawani4-creator
+"""
+
+def wish(name="Khadoos"):
+    message = f"""Happy Birthday, {name}!
+May your code compile on the first run,
+may your coffee be strong, and your bugs be few.
+Keep being delightfully khadoos â€” it suits you. ;)
+"""
+    return message
+
+if __name__ == "__main__":
+    print(wish("Khadoos"))
